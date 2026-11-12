@@ -1,0 +1,6 @@
+{
+  "appId": "com.birdlife.virtualbirds",
+  "appName": "BirdLife - Virtual Birds",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}

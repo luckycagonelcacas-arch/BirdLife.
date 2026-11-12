@@ -1,0 +1,12 @@
+BIRDLIFE - INSTRUCCIONES RAPIDAS
+
+1) Descomprime este ZIP.
+2) Crea un repositorio VACIO en GitHub.
+3) Sube TODO lo que hay dentro de esta carpeta a la raiz del repositorio. No subas solo www: incluye package.json, capacitor.config.json y la carpeta .github.
+4) En GitHub abre Actions y ejecuta (o espera) "Build BirdLife APK".
+5) Al terminar, descarga el artefacto "BirdLife-debug-apk".
+6) Descomprime el artefacto y encontrarás app-debug.apk.
+
+El proyecto ya trae el juego dentro de www/index.html. No tienes que sustituir archivos por partes.
+
+NOTA: esta es una primera version 2D. Los sonidos son sinteticos, la reproduccion es una demostracion y el guardado es local. No incluye todavia modelos 3D, grabaciones reales, nube ni notificaciones push fiables. El APK aun debe compilarse en GitHub Actions; este ZIP no es el APK.
